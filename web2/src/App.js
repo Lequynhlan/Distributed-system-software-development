@@ -7,6 +7,7 @@ import { Cart2 } from "./ProductGetApi/GlobalState";
 import Login from "./ProductGetApi/components/mainpages/auth/Login";
 import Register from "./ProductGetApi/components/mainpages/auth/Register";
 
+import DetailProduct from "./ProductGetApi/components/detailProduct/DetailProduct";
 
 
 export default function App() {
@@ -20,13 +21,16 @@ export default function App() {
     <div>
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Login />} />
-        <
+      
+        <Route path="/detail/:id" exact element={<DetailProduct />} />
         <Route path="/login" element={isLogged ? <NotFound /> : <Login />} />
         <Route
           path="/register"
           element={isLogged ? <Register /> : <NotFound />}
         />
-       </Routes>
+       
+     
+      </Routes>
     </div>
   );
 }
