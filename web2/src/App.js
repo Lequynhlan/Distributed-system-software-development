@@ -1,5 +1,9 @@
 import React, { useContext } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
+import Cart3 from "./ProductGetApi/components/mainpages/Cart/Cart";
+import NotFound from "./ProductGetApi/components/utils/not_found/NotFound";
+import OrderHistory from "./ProductGetApi/components/history/OrderHistory";
+import OrderDetails from "./ProductGetApi/components/history/OrderDetails";
 
 import { Cart2 } from "./ProductGetApi/GlobalState";
 
@@ -13,9 +17,18 @@ export default function App() {
   const [isAdmin] = state.userAPI.isAdmin;
 
   return (
-    <div>
-      <Routes location={location} key={location.pathname}>
-        <Route path="/products" element={<Product2 />} />
+    <div/>
+        <Route
+          path="/history"
+          element={isLogged ? <OrderHistory /> : <NotFound />}
+        />
+        <Route
+          path="/history/:id"
+          element={isLogged ? <OrderDetails /> : <NotFound />}
+        />
+        <Route path="/cart2" element={<Cart3 />} />
+        <Route path="*" exact element={<NotFound />} 
+ <Route path="/products" element={<Product2 />} />
         <Route
           path="/create_product"
           exact
@@ -30,3 +43,5 @@ export default function App() {
     </div>
   );
 }
+
+
