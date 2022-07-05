@@ -9,6 +9,7 @@ function BtnRender({ product, deleteProduct }) {
 
   return (
     <div className="row_btn">
+      
       {isAdmin ? (
         <>
           <Link
