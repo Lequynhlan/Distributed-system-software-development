@@ -27,27 +27,27 @@ In this project we use main technologies like :
  
  ** Application that runs the code:**                        
  Visual Studio Code               
-   Link: https://code.visualstudio.com/download                      
-**** Support application:****
-  Docker:
- Link: https://www.docker.com/
+   Link: https://code.visualstudio.com/download                             
+**** Support application:****                 
+  Docker:                                  
+ Link: https://www.docker.com/           
   MongoDB:
-   Link: https://www.mongodb.com/
+   Link: https://www.mongodb.com/   
   Cloudinary:
-   Link: https://cloudinary.com/users/login?RelayState=%2Fconsole%2F%2Fmedia_library%2Ffolders%2Fhome%3Fcustomer_external_id%3Dc-7e873a567e16317110eb999832b5a0
-  PayPal:
-   Link: https://developer.paypal.com/developer/applications
-**Installed: **
- git clone https://github.com/Lequynhlan/Distributed-system-software-development.git
-** server:**
-    cd server
-    npm install
- **client:**
-    cd web2
-    npm install -g npm@8.13.2 
-**Using:**
- server:
-  .env:
+   Link: https://cloudinary.com/users/login?RelayState=%2Fconsole%2F%2Fmedia_library%2Ffolders%2Fhome%3Fcustomer_external_id%3Dc-7e873a567e16317110eb999832b5a0  
+  PayPal:  
+   Link: https://developer.paypal.com/developer/applications  
+**Installed: **  
+ git clone https://github.com/Lequynhlan/Distributed-system-software-development.git  
+** server:**  
+    cd server  
+    npm install  
+ **client:**  
+    cd web2  
+    npm install -g npm@8.13.2   
+**Using:**  
+ server:  
+  .env:  
    MONGODB_URL = YOUR MONGODB URI
    CLOUD_API_KEY = YOUR CLOUDINARY API KEY
    CLOUD_API_SECRET = YOUR CLOUDINARY API SECRET
