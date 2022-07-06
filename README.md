@@ -25,9 +25,9 @@ In this project we use main technologies like :
   Version: 16.11.0
   Link: https://nodejs.org/en/download/
  
- ** Application that runs the code:**
- Visual Studio Code
-   Link: https://code.visualstudio.com/download
+ ** Application that runs the code:**                        
+ Visual Studio Code               
+   Link: https://code.visualstudio.com/download                      
 **** Support application:****
   Docker:
  Link: https://www.docker.com/
