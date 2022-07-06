@@ -48,11 +48,11 @@ In this project we use main technologies like :
 **Using:**
  server:
   .env:
-    MONGODB_URL = YOUR MONGODB URI
-    CLOUD_API_KEY = YOUR CLOUDINARY API KEY
-    CLOUD_API_SECRET = YOUR CLOUDINARY API SECRET
-    CLOUD_NAME = YOUR CLOUDINARY NAME
-     (Link Secure Password Generator: https://passwordsgenerator.net/)
+   MONGODB_URL = YOUR MONGODB URI
+   CLOUD_API_KEY = YOUR CLOUDINARY API KEY
+   CLOUD_API_SECRET = YOUR CLOUDINARY API SECRET
+   CLOUD_NAME = YOUR CLOUDINARY NAME
+   (Link Secure Password Generator: https://passwordsgenerator.net/)
     REFRESH_TOKEN_SECRET = SECURE PASSWORD (LENGTH 100)
     ACCESS_TOKEN_SECRET = SECURE PASSWORD (LENGTH 50)
 **  run code:**
