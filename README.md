@@ -10,7 +10,7 @@
  - Filter drinks by price/ categories/ best sales/ time
  - Show detail drinks and related drinkss
  - Create orders
- - Check out bills  
+ - Check out bills    
 **Developing****
 **Built With
 In this project we use main technologies like :
@@ -19,7 +19,7 @@ In this project we use main technologies like :
   - MongoDB
   - Cloudinary
   - Reactstrap
-  - Nodejs
+  - Nodejs   
 **Prerequisties**
  Nodejs:   
   Version: 16.11.0
